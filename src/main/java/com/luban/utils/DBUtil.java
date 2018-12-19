@@ -21,10 +21,10 @@ public class DBUtil {
         Properties properties = new Properties();
         try {
             properties.load(stream);
-            className = properties.getProperty("className");
-            url = properties.getProperty("url");
-            userName = properties.getProperty("userName");
-            passWord = properties.getProperty("passWord");
+            className = properties.getProperty("jdbc.className");
+            url = properties.getProperty("jdbc.url");
+            userName = properties.getProperty("jdbc.userName");
+            passWord = properties.getProperty("jdbc.passWord");
         } catch (IOException e) {
             e.printStackTrace();
         }
