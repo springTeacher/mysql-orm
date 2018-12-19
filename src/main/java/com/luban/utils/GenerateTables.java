@@ -7,10 +7,6 @@ import java.lang.reflect.Field;
 
 
 public class GenerateTables {
-    public static void main(String[] args) {
-
-        createTable();
-    }
     /**
      * 根据类路径下的entity创建表
      */
